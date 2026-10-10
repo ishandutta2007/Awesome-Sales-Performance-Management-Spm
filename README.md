@@ -65,7 +65,7 @@ The table below lists top commercial Sales Performance Management (SPM) and Ince
 
 Open-source tools provide developer-friendly building blocks for self-hosted commission calculation, payment splits, performance ledgers, and developer incentive tracking. 
 
-The table below features notable open-source repositories, **sorted by GitHub Stars_Count (descending)**. Each Stars_Badge links directly to the repository's stargazers page.
+The table below features notable open-source repositories, **sorted by GitHub_Stars_Count (descending)**. Each Stars_Badge links directly to the repository's stargazers page.
 
 | Rank | Project Name | GitHub_Stars | Description & Features | Primary Tech Stack | Best For |
 | :--- | :--- | :--- | :--- | :--- | :--- |
