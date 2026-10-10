@@ -1,217 +1,122 @@
-# Awesome-Sales-Performance-Management-Spm
+# 🚀 Awesome Sales Performance Management (SPM) Software & Open-Source Ecosystem
 
-## Top Sales Performance Management (SPM) Ecosystem
+![Sales Performance Management Ecosystem Banner](assets/spm-banner.svg)
 
+<p center>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/badge.svg" alt="Awesome List"/></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+> 💡 A curated ecosystem list of top **Sales Performance Management (SPM)** platforms, **Incentive Compensation Management (ICM)** software, sales quota automation tools, commission tracking platforms, and **open-source sales performance & commission calculation engines**.
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+🗓 **Last updated: October 2026**
 
-*Focused on Incentive Compensation, Quota Management & Self-Hosted Commission Platforms*
+---
 
-**Last updated: October 2026**
+## 🔍 Overview & SEO Guide to Sales Performance Management (SPM)
 
+**Sales Performance Management (SPM)** is an enterprise operational domain focused on optimizing sales representative productivity, incentive compensation accuracy, quota allocation, sales territory design, and sales forecasting. SPM software connects CRM deal data with finance payroll systems to automate complex multi-tier sales commission structures, clawbacks, manager overrides, and performance analytics.
 
+Whether you are looking for enterprise commercial ICM suites or self-hosted open-source commission calculation packages, this directory covers the complete SPM technology landscape.
 
-This repository tracks notable **commercial Sales Performance Management (SPM) platforms** and **open-source projects** that manage incentive compensation, quota allocation, territory design, and sales analytics — from enterprise ICM suites to lightweight commission calculators and affiliate management engines.
+---
 
+## 📊 Market Overview & Industry Landscape
 
+- 📈 **Estimated Market Size**: The global Sales Performance Management (SPM) software market is estimated at **~$2.5 Billion to $3.1 Billion** (2025–2026) and is projected to grow at a CAGR of 13.5% reaching over $5.5 Billion by 2030.
+- 🏢 **Market Structure**: The sector is **moderately fragmented to concentrated at the enterprise level**, with category giants (Salesforce, SAP, Anaplan, Xactly, Varicent) holding the majority of enterprise market share, while agile mid-market platforms (CaptivateIQ, Spiff/Salesforce, QuotaPath, Performio) compete aggressively on ease-of-use and flexibility.
 
-**Examples** include Salesforce Sales Performance Management, Xactly Incent, Varicent, CaptivateIQ, Spiff, Performio, QuotaPath, Anaplan SPM, SAP SuccessFactors Incentive Management, and Iconixx (the category leaders).
+---
 
+## 📑 Table of Contents
 
+- 💼 [SaaS & Commercial SPM Platforms](#-saas--commercial-spm-platforms)
+- 🔓 [Open-Source Sales Performance & Commission Engines](#-open-source-sales-performance--commission-engines)
+- 🏗 [Key Open-Source Frameworks & Integration Architectures](#-key-open-source-frameworks--integration-architectures)
+- 🤝 [How to Contribute](#-how-to-contribute)
+- 💖 [Support & Community](#-support--community)
+- 📈 [Star History](#-star-history)
+- ⚠️ [Disclaimer](#-disclaimer)
 
-**Open-source emphasis**: Sales Performance Management is an emerging open-source domain. **Laravel Sales Commission** leads as a comprehensive enterprise-grade commission calculation package for Laravel SaaS applications with multi-tier structures, clawback support, team splits, and payout management . **SampleFlow** provides an auditable sales performance and target management system with immutable performance ledgers, role-based permissions, and controlled Excel imports . **Affiliate Management System** delivers production-ready affiliate commission tracking with multi-tier programs, fraud detection, and analytics . **EngOS** brings equity and cash compensation modeling with vesting schedules and bonus splits for engineering teams . **@classytic/revenue** offers escrow and multi-party splits for marketplaces and affiliate systems . **Meow** provides free sales pipeline management with forecasting and team performance tracking . This section is expanded.
+---
 
+## 💼 SaaS & Commercial SPM Platforms
 
+The table below lists top commercial Sales Performance Management (SPM) and Incentive Compensation Management (ICM) platforms, **sorted by company valuation / annual revenue (descending)**.
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+| Rank | Platform | Description & Target Market | Specific Starting Pricing | Free Tier / Free Trial Limit | Valuation / Annual Revenue |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | **[Salesforce Sales Performance Management](https://www.salesforce.com/)** | Native SPM suite for Salesforce Sales Cloud handling quota planning, territory allocation, and commission tracking. Best for Salesforce enterprise customers. | **$75/user/month** (Sales Cloud Enterprise base + SPM add-on pricing) | **30-day free trial** (Sales Cloud trial with full CRM & SPM feature access) | **~$300 Billion Market Cap** (~$34.8B annual revenue) |
+| 2 | **[SAP SuccessFactors Incentive Management](https://www.sap.com/)** | Enterprise-grade incentive compensation management and enterprise planning platform. Best for SAP-centric global enterprises. | **$120/user/month** (Enterprise custom quote baseline) | **30-day trial** via SAP PartnerEdge / SAP SuccessFactors demo environment | **~$240 Billion Market Cap** (~$33B annual revenue) |
+| 3 | **[Anaplan SPM](https://www.anaplan.com/)** | Connected enterprise planning platform integrating territory design, quota allocation, and compensation modeling. Best for large enterprises. | **$50,000/year base platform subscription** (~$80–$120/user/month) | **No free tier**; 14-day guided sandbox demo upon request | **$10.4 Billion Valuation** (Acquired by Thoma Bravo; ~$592M revenue) |
+| 4 | **[CaptivateIQ](https://www.captivateiq.com/)** | Modern, flexible commission management platform with real-time modeling and CRM integrations. Best for mid-market and fast-growing teams. | **$40/user/month** (Minimum contract starting at ~$8,000/year) | **14-day free trial** (Full sandbox access for commission plan testing) | **$1.25 Billion Valuation** (Unicorn Series C; ~$45M ARR) |
+| 5 | **[Xactly Incent](https://www.xactlycorp.com/)** | Cloud enterprise standard for incentive compensation management and enterprise sales analytics. Best for enterprises with complex compensation plans. | **$50/user/month** (Express tier; Enterprise custom tier from $100+/user/month) | **14-day guided trial** via Xactly Express demo sandbox | **$564 Million Valuation** (Acquired by Vista Equity; ~$288M ARR) |
+| 6 | **[Spiff (Salesforce)](https://www.spiff.com/)** | Real-time sales commission automation software with custom plan builder and rep visibility. Best for fast-growing sales teams. | **$60/user/month** (Growth plan; custom enterprise quotes available) | **14-day free trial** (Full interactive commission automation demo) | **$419 Million Valuation** (Acquired by Salesforce in 2024) |
+| 7 | **[Varicent](https://www.varicent.com/)** | Comprehensive sales performance management and enterprise sales incentive platform. Best for global enterprise sales operations. | **$75/user/month** (Standard deployment tier base estimate) | **30-day partner sandbox trial** upon enterprise sales request | **~$400 Million Est. Valuation** (Backed by Warburg Pincus; ~$150M+ ARR) |
+| 8 | **[Performio](https://www.performio.com/)** | Enterprise-grade sales commission software built for automated calculations and auditability. Best for mid-market and enterprise teams (30+ reps). | **$60/user/month** (Mid-market tier baseline + custom implementation fee) | **14-day custom demo trial** (Configured sandbox with sample company data) | **~$150 Million Est. Valuation** ($75M JMI Growth round; ~$30M ARR) |
+| 9 | **[QuotaPath](https://www.quotapath.com/)** | Transparent commission calculation and quota attainment software with CRM sync. Best for SMB and mid-market sales teams. | **$35/user/month** (Growth plan; Premium plan at $50/user/month) | **30-day free trial** (Unlimited features for up to 10 users during trial) | **~$120 Million Est. Valuation** ($67M total raised; Series B led by Tribe) |
+| 10 | **[Iconixx](https://www.iconixx.com/)** | All-in-one compensation management software for sales commissions, bonus plans, and merit pay. Best for complex mid-market compensation plans. | **$45/user/month** (Standard edition starting price) | **14-day demo environment trial** upon sales request | **~$25 Million Est. Valuation** (Privately held sales operations vendor) |
 
+---
 
+## 🔓 Open-Source Sales Performance & Commission Engines
 
-## Table of Contents
+Open-source tools provide developer-friendly building blocks for self-hosted commission calculation, payment splits, performance ledgers, and developer incentive tracking. 
 
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
+The table below features notable open-source repositories, **sorted by GitHub Star Count (descending)**. Each star badge links directly to the repository's stargazers page.
 
-- [Open-Source GitHub Projects](#open-source-github-projects)
+| Rank | Project Name | Stars | Description & Features | Primary Tech Stack | Best For |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | **[Affiliate Management System](https://github.com/prathammahajan13/affiliate-management-system)** | [![GitHub stars](https://img.shields.io/github/stars/prathammahajan13/affiliate-management-system?style=social&color=white)](https://github.com/prathammahajan13/affiliate-management-system/stargazers) | Multi-tier affiliate commission program with Bronze/Silver/Gold tiers, real-time fraud detection, volume bonuses, and multi-gateway payout integration (Stripe, PayPal, Razorpay). | Node.js, Express, MongoDB | E-commerce, SaaS & Digital Marketplaces |
+| 2 | **[Laravel Sales Commission](https://github.com/ayangzy/laravel-sales-commission)** | [![GitHub stars](https://img.shields.io/github/stars/ayangzy/laravel-sales-commission?style=social&color=white)](https://github.com/ayangzy/laravel-sales-commission/stargazers) | Enterprise-grade sales commission engine for Laravel applications. Features automated tier progression (Bronze → Platinum), clawback grace periods, team split rules (closer, manager override), and event-driven payout processing. | PHP 8.2+, Laravel 10/11 | Laravel SaaS & Enterprise Web Apps |
+| 3 | **[SampleFlow](https://github.com/Eclipseic1848/SampleFlow)** | [![GitHub stars](https://img.shields.io/github/stars/Eclipseic1848/SampleFlow?style=social&color=white)](https://github.com/Eclipseic1848/SampleFlow/stargazers) | Auditable sales performance & target management platform featuring immutable append-only performance ledgers, layered target approval workflows, role-based access control, and controlled Excel imports. | React 19, Fastify 5, PostgreSQL 16 | Auditable Enterprise Target & SPM Systems |
+| 4 | **[EngOS](https://github.com/dust-tt/engos)** | [![GitHub stars](https://img.shields.io/github/stars/dust-tt/engos?style=social&color=white)](https://github.com/dust-tt/engos/stargazers) | Engineering compensation modeling engine supporting base salary, cash vs. equity bonus split decisions, 4-year linear vesting schedules, multi-country FX calculations, and long-term equity projections. | Node.js, TypeScript CLI | Engineering Compensation & Equity Planning |
+| 5 | **[@classytic/revenue](https://www.npmjs.com/package/@classytic/revenue)** | [![GitHub stars](https://img.shields.io/github/stars/classytic/revenue?style=social&color=white)](https://github.com/classytic/revenue/stargazers) | Payment lifecycle & multi-party revenue split engine for platforms. Handles escrow holds, platform fee deductions, multi-level affiliate splits, and automated payment gateway routing. | JavaScript / TypeScript | Marketplaces & Multi-Party Revenue Splits |
+| 6 | **[Meow Pipeline Manager](https://github.com/nash-md/meow)** | [![GitHub stars](https://img.shields.io/github/stars/nash-md/meow?style=social&color=white)](https://github.com/nash-md/meow/stargazers) | Lightweight open-source sales pipeline & quota forecast tracker. Supports custom funnel stages, automatic weighted deal forecasting, drag-and-drop schema editing, and team performance tracking. | TypeScript, React, Express, MongoDB | SMB Sales Pipeline & Quota Tracking |
 
-- [How to Contribute](#how-to-contribute)
+---
 
-- [Disclaimer](#disclaimer)
+## 🏗 Key Open-Source Frameworks & Integration Architectures
 
+- ⚙️ **For SaaS & Web Applications**: Integrate **Laravel Sales Commission** for server-side commission calculation with multi-tier bonus structures, manager overrides, and automated clawbacks.
+- 🛒 **For E-Commerce & Marketplaces**: Deploy **Affiliate Management System** for tier-based commission tracking and fraud prevention, or use **@classytic/revenue** for complex multi-party escrow and revenue splits.
+- 🛡️ **For Enterprise Audit Compliance**: Use **SampleFlow** for immutable performance event logs, target approvals, and secure data ingestion.
+- 📊 **For Compensation & Equity Planning**: Utilize **EngOS** to model cash vs. equity bonus distributions and multi-year vesting projections.
 
+---
 
-## SaaS/Hosted Platforms
+## 🤝 How to Contribute
 
+1. 🍴 Fork this repository.
+2. 📝 Add or update entries in `README.md` using the Markdown table format.
+3. 💲 Ensure all SaaS submissions include specific starting pricing, exact free trial/tier details, and company valuation/revenue metrics.
+4. 💻 Open-source submissions must include a valid GitHub repository link and tech stack specifications.
+5. 🚀 Submit a Pull Request with a clear description of the added project.
 
+---
 
-- **[Xactly Incent](https://www.xactlycorp.com/)**
+## 💖 Support & Community
 
-  **The enterprise standard for incentive compensation management**, cloud-based with comprehensive incentive management, data-driven insights, and scalability . **Best for large sales organizations with complex compensation plans**.
+Thank you for visiting and supporting this curated Sales Performance Management ecosystem repository! 🙏 If you find this list helpful for your sales operations, engineering, or finance stack research, please consider:
 
+- ⭐ **Starring** this repository on GitHub to help others discover it.
+- 🔀 **Forking** the repo to contribute new SPM products, commission calculators, or tools.
+- 📢 **Sharing** this repository with sales ops leaders, engineers, and financial analysts.
 
+☕ **Buy Me a Coffee**: If you would like to sponsor and support ongoing open-source maintenance, check out the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
 
-- **[Varicent](https://www.varicent.com/)**
+---
 
-  **Sales performance management and incentive compensation platform** with advanced analytics, automation, and scalability . **Best for enterprises needing comprehensive SPM capabilities**.
+## 📈 Star History
 
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Sales-Performance-Management-Spm&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Sales-Performance-Management-Spm&type=date&legend=top-left)
 
+---
 
-- **[CaptivateIQ](https://www.captivateiq.com/)**
+## ⚠️ Disclaimer
 
-  **Modern commission management platform** — customizable commission plans, automated calculations, integration capabilities, and real-time visibility . **Best for mid-market and growing sales teams**.
-
-
-
-- **[Spiff](https://www.spiff.com/)**
-
-  **Sales commission and incentive compensation software** — automation of sales commissions, comprehensive reporting, and scalability . **Best for organizations wanting flexible commission automation**.
-
-
-
-- **[Performio](https://www.performio.com/)**
-
-  **Sales commission and incentive compensation software** — comprehensive reporting, user-friendly interface, and automation . **Best for enterprises wanting enterprise-grade commission management**.
-
-
-
-- **[QuotaPath](https://www.quotapath.com/)**
-
-  **Calculate commission and quota attainment easily, for free** — user-friendly interface, automated calculations, and customizable plans . **Best for teams wanting transparent quota tracking**.
-
-
-
-- **[Anaplan SPM](https://www.anaplan.com/)**
-
-  **Connected planning platform** — territory design, quota allocation, and incentive compensation integrated with enterprise planning.
-
-
-
-- **[SAP SuccessFactors Incentive Management](https://www.sap.com/)**
-
-  **Enterprise incentive management** — comprehensive compensation management, customization, and global support . **Best for SAP-centric enterprises**.
-
-
-
-- **[Iconixx](https://www.iconixx.com/)**
-
-  **Compensation management software** — comprehensive suite for sales, finance, and HR compensation issues . **Best for enterprises with complex compensation needs**.
-
-
-
-- **[Salesforce Sales Performance Management](https://www.salesforce.com/)**
-
-  **Salesforce's native SPM** — quota management, territory assignment, and performance tracking integrated with Sales Cloud. **Best for Salesforce customers**.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Commission Calculation Engines
-
-
-
-- **[Laravel Sales Commission](https://github.com/ayangzy/laravel-sales-commission)**
-
-  **Comprehensive, enterprise-grade commission calculation and management package for Laravel SaaS applications**, open-source . **Full commission lifecycle management** — from calculation through clawbacks to payout processing . **Multi-tier commission structures** with automatic tier progression (Bronze → Silver → Gold → Platinum) as cumulative sales increase . **Team split commissions** with role tracking (primary closer, supporting rep, manager override) . **Clawback support** for refunds and chargebacks with configurable grace periods . **Payout management** with approval workflows and configurable schedules . **Event-driven architecture** hooking into Laravel events for notifications and leaderboards . **Requirements**: PHP 8.2+, Laravel 10.x or 11.x . **Best for Laravel SaaS applications needing commission management**.
-
-
-
-- **[Affiliate Management System](https://github.com/prathammahajan13/affiliate-management-system)**
-
-  **Production-ready affiliate management system for Node.js**, open-source . **Multi-tier commission structures** with Bronze, Silver, Gold, and Platinum tiers . **Volume bonuses** at $1,000, $5,000, and $10,000 thresholds . **Fraud detection** with real-time monitoring and prevention . **Campaign management** with budget tracking and performance analytics . **Payment processing** with Razorpay, Stripe, and PayPal integration . **Real-time analytics and reporting** . **Best for e-commerce, SaaS, and digital marketplaces**.
-
-
-
-- **[@classytic/revenue](https://www.npmjs.com/package/@classytic/revenue)**
-
-  **Payment lifecycle engine for marketplaces and affiliate systems**, open-source . **Escrow & multi-party splits** — platform-as-intermediary payment flow for marketplaces, group buy, and affiliate systems . **Affiliate commission calculation** with platform rate, gateway fee, and affiliate splits . **Multi-party splits** for multi-level marketing and partner programs . **Ready-to-use patterns** for Stripe, Razorpay, and other gateways . **Best for marketplaces and multi-party payment flows**.
-
-
-
-### Sales Performance & Target Management
-
-
-
-- **[SampleFlow](https://github.com/Eclipseic1848/SampleFlow)**
-
-  **Sales performance and target management web system**, open-source . **Role-based permissions** with department, group, and personnel identity management . **Immutable performance event chain** — append-only, never overwritten performance ledger with organizational snapshots by event date . **Layered target assignment** with real-name confirmation, general manager approval, and modification requests . **Controlled Excel import** with pre-check, confirmation, rollback, and idempotency evidence separation . **Tech stack**: React 19, Fastify 5, PostgreSQL 16, Docker Compose . **Note**: P0 and P1 desktop Web capabilities complete; real data UAT and production acceptance still pending . **Best for auditable sales performance management**.
-
-
-
-- **[Meow](https://github.com/nash-md/meow)**
-
-  **Free open-source sales pipeline management**, open-source . **Sales funnel setup** with custom stages and opportunities . **Automatic forecast updates** when deals move down the funnel . **Customer data management** with drag-and-drop schema editor . **Team performance tracking** and sales cycle progression analysis . **Tech stack**: TypeScript, React, Express, MongoDB . **Best for small teams wanting free pipeline management**.
-
-
-
-### Compensation & Equity Modeling
-
-
-
-- **[EngOS](https://github.com/dust-tt/engos)**
-
-  **Engineering compensation modeling engine**, open-source . **Base salary, bonus, and equity modeling** with vesting schedules (4-year grants vesting linearly over 48 months) . **Period bonus splits** — cash vs. equity ratio decisions each 6-month period with minimum ratio constraints . **Equity projection** through 2030 with customizable assumptions . **Multi-country support** with exchange rates (FR/US) . **CLI-driven** with JSON inputs and CSV outputs . **Best for engineering compensation planning**.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Commissionly** — Sales commission software with customizable structures and real-time analytics .
-
-- **Core Commissions** — Affordable sales commission management with automation and real-time reporting .
-
-- **NetCommissions** — Sales commission management software solution .
-
-- **QCommission** — Powerful, flexible sales commission software with customization and integrations .
-
-- **beqom** — Comprehensive compensation management with global support .
-
-- **Opire** — Open-source developer rewards platform with issue-centric reward management .
-
-- **Algopay** — Algorand-based payroll and payouts toolkit with multi-department parallel scheduling .
-
-- **MLM Software** — Comprehensive multi-level marketing system with pairing bonuses and auto-placement .
-
-
-
-**Frameworks for building custom SPM solutions**: Combine **Laravel Sales Commission** for enterprise-grade commission calculation with multi-tier structures and clawback support in Laravel applications . Use **Affiliate Management System** for production-ready affiliate commission tracking with fraud detection in Node.js environments . Deploy **SampleFlow** for auditable sales performance management with immutable ledgers and controlled Excel imports . Integrate **@classytic/revenue** for escrow and multi-party splits in marketplace payment flows . Choose **EngOS** for equity and cash compensation modeling with vesting schedules . Use **Meow** for free sales pipeline management with forecasting . Note that true enterprise SPM with AI-powered incentive optimization, real-time calculation at scale, and vendor-supported SLAs (Xactly, Varicent, CaptivateIQ) remains primarily commercial territory; open-source stacks provide strong commission calculation, performance tracking, and payment split foundations that require integration for complete SPM operations.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Sales Performance Management platforms handle sensitive compensation data and may process PII. Self-hosted solutions require proper security hardening, access controls, and compliance with data privacy regulations.
-
-- **Commission calculation requires accuracy** — errors in commission calculations directly impact sales rep trust and retention. Test thoroughly with edge cases (clawbacks, team splits, tier transitions) before production deployment .
-
-- **SPM implementations require cross-functional expertise** — sales operations, finance, HR, and IT must collaborate. Data integration from CRM, ERP, and HR systems is often the most complex aspect .
-
-- **License considerations**: Laravel Sales Commission is open-source , Affiliate Management System is open-source , SampleFlow is open-source , EngOS is open-source , and @classytic/revenue is open-source . Verify licensing against your use case before committing.
-
-- The open-source ecosystem provides strong commission calculation, performance tracking, and payment split foundations, but **AI-powered incentive optimization, real-time calculation at scale, and vendor-supported SLAs** remain primarily commercial offerings.
+- ℹ️ This list is **community-curated** for research and evaluation purposes.
+- 🔒 Sales Performance Management systems handle confidential compensation, payroll, and personal data (PII). Ensure proper encryption, role-based access control, and GDPR/CCPA compliance when deploying self-hosted solutions.
+- 🎯 Test commission calculation engines thoroughly against edge cases (clawbacks, split payouts, tier resets) before deploying to production.
